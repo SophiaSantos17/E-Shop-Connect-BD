@@ -1,32 +1,9 @@
-DROP TABLE delivere_to;
-DROP TABLE contain;
-DROP TABLE payment;
-DROP TABLE manage;
-DROP TABLE save_to_payment;
-DROP TABLE after_sales_service_at;
-
-DROP TABLE address;
-DROP TABLE orders;
-DROP TABLE orderItem;
-DROP TABLE creditCard;
-DROP TABLE debitCard;
-DROP TABLE bankCard;
-DROP TABLE seller;
-DROP TABLE comments;
-DROP TABLE buyer;
-DROP TABLE users;
-DROP TABLE product;
-DROP TABLE store;
-DROP TABLE servicePoint;
-DROP TABLE brand;
-DROP TABLE manage;
-DROP TABLE payment;
 
 -- banco de dados
 CREATE DATABASE EShopConnect;
 USE EShopConnect;
  
--- Criação das entidades
+-- Criação das tabelas
 
 CREATE TABLE users(
     pk_userID       INT NOT NULL AUTO_INCREMENT,
